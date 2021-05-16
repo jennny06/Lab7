@@ -38,7 +38,7 @@ router.setState = function(state) {
    *    2. You may modify the parameters of setState() as much as you like
    */
 
-  const title_ = document.querySelector("header h1");
+  const title_ = document.querySelector("h1");
   const body_ = document.querySelector("body");
 
   if (state == null) {
